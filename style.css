@@ -1,0 +1,204 @@
+* {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 0 300px;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+nav {
+    height: 2.5rem;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 24px;
+    width: 150px;
+}
+
+.links {
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul li a:hover {
+    color: #3882F6;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    height: 25rem;
+    margin-bottom: 2.5rem;
+    flex: 1 1 auto;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 16px 0px;
+    line-height: 2.5rem;
+}
+
+.intro p {
+    margin: 16px 0px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro button {
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px black;
+}
+
+.img {
+    background:#1F2937 url(./images/crypto.webp) no-repeat center;
+    background-blend-mode: luminosity ;
+    border: none;
+    border-radius: 5px;
+    margin: 32px;
+    width: 300px;
+    height: 250px;
+    flex: 1 1 auto;
+}
+
+#item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 27.5rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.items div img {
+    border: 3px solid #3882F6;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.items div img:hover {
+    background-color: #3882F6;
+    cursor: pointer;  
+}
+
+.text {
+    text-align: center;
+}
+
+#review-container {
+    padding: 8rem 6rem;
+    height: 20rem;
+    color: #1f2937;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 300px;
+}
+
+
+blockquote p {
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: 900;
+}
+
+#subs-container {
+    height: 17.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subs {
+    background-color:#3882F6;
+    color: #e5e7eb;
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    padding: 2.5rem 8rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subs header {
+    background-color: inherit;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.subs p {
+    font-size: 24px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: 1rem;
+    border:2px solid #e5e7eb;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 0.25rem 1rem;
+    box-shadow:1px 1px 1px #e5e7eb;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 4px solid #e5e7eb;
+}
+
+#footer-container {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    flex: 1 0 auto;
+}
